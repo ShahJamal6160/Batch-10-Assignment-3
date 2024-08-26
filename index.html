@@ -32,17 +32,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-
     <style>
-      .font-manrope{
-      font-family: "Manrope", sans-serif;
-      font-optical-sizing: auto;
-      font-style: normal;
-    }
+      .manrope-font {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
     </style>
 
 </head>
-<body class="font-manrope">
+<body class="manrope-font ">
 
        <Header class="md:container mx-auto mb-24">
         
@@ -266,7 +266,7 @@
 
           <!-- Our Latest Portfolio -->
 
-          <section class=" mb-24">
+          <section class="mb-24">
 
             <div class="text-center py-16">
                       <button class="btn w-56 bg-white rounded-3xl font-bold"> <i class="fa-solid fa-arrow-right"></i>  Explore our Latest works</button>
@@ -278,9 +278,9 @@
                   <div class="container mx-auto grid lg:grid-cols-5 gap-4 ">
                               <!-- card-1 -->
                         <div class="grid lg:col-span-4  ">
-                            <div class="card mx-12 flex justify-center items-center lg:card-side  shadow-xl">
+                            <div class="card mx-12 lg:mx-0 flex justify-center items-center lg:card-side  shadow-xl ">
                               <figure>
-                                <img class="w-80"
+                                <img class="w-96"
                                   src="assets/img1.png"
                                   alt="img" />
                               </figure>
@@ -295,19 +295,19 @@
                         </div>
                                   <!-- card-2 -->
                         <div class=" card flex items-center ">
-                          <img class="w-96 lg:h-48" src="assets/img2.png" alt="">
+                          <img class="w-96 mx-12 lg:h-64" src="assets/img2.png" alt="">
                         </div>
 
                                 <!-- card-3 -->
-                        <div class="card flex items-center">
-                          <img class="w-96 " src="assets/img3.png" alt="">
+                        <div class="card flex items-center ">
+                          <img class="w-96 lg:h-64" src="assets/img3.png" alt="">
                         </div>
 
                                 <!-- card-4 -->
                         <div class="grid lg:col-span-3  ">
-                          <div class="card mx-12 flex justify-center items-center lg:card-side shadow-xl">
+                          <div class="card mx-12 flex justify-center items-center lg:card-side lg:mx-2 shadow-xl ">
                             <figure>
-                              <img class="w-80"
+                              <img class="w-96"
                                 src="assets/img4.png"
                                 alt="img" />
                             </figure>
@@ -323,7 +323,7 @@
 
                               <!-- card-5 -->
                         <div class=" card flex items-center ">
-                          <img class="w-96 lg:w-72" src="assets/img5.png" alt="">
+                          <img class="w-96 lg:h-64" src="assets/img5.png" alt="">
                         </div>
       
                   </div>
